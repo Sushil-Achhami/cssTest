@@ -62,3 +62,97 @@ nav#navbar ul li{
 nav#navbar ul li a{
     color: #232323;
 }
+
+main.container-lg-main{
+    width: 100%;
+}
+
+main section.container{
+    background-color:rgba(72, 142, 255,0.05);
+    height: 88vh;
+    position: relative;
+}
+
+div.container-main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+main section.container figure#figure-1{
+    position: absolute;
+    text-align: right;
+    right: 245px;
+    padding: 0; margin: 0;
+
+}
+
+figure#figure-1 img, figure#figure-2 img, figure#figure-3 img{
+    width: 100%;
+    height: auto;
+}
+
+main section.container figure#figure-2{
+    position: absolute;
+    bottom: 0px;
+    margin: 0; padding: 0;
+}
+
+main section.container figure#figure-3{
+    position: absolute;
+    bottom: 0px;
+    margin: 0; padding: 0;
+}
+
+div#header{
+    font-family: 'Alegreya', serif;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 170px;
+    line-height: 82px;
+}
+
+div#header p{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+div#header p span#underline{
+    background-image: linear-gradient(120deg, #81E6FF 0%, #81E6FF 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 80%;
+}
+
+div#sub-header{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+
+div#description{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 21px;
+    line-height: 40px;
+}
+
+div#description p{
+    margin: 0;
+}
+
+input.btn-getstarted{
+    background-color: #488EFF;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    padding: 16px 36px;
+    border: 0px;
+    border-radius: 20px 0 20px 0;
+    box-shadow: -5px 5px rgba(72, 142, 255,0.3);
+}
+
+input#button-main-1{
+    margin-top: 55px;
+}
