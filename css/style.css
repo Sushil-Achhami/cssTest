@@ -276,3 +276,122 @@ div.lg-img-container span{
     font-family: 16px;
     font-weight: 600;
 }
+
+section.features{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.features h3{
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+span.description-1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 21px;
+    margin: 0 auto;
+
+}
+.column-1{
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-1 figure{
+    margin: 0;
+    width: 470px;
+    height:470px;
+    background-position: center;
+    background-color: rgba(26, 115, 232, 0.05);
+    border-radius: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-1 figure img{
+    align-self: center;
+}
+
+div.content-1{
+    width: 44%;
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+div.content-1 h4{
+    font-family: 'Alegreya', serif;
+    font-size: 30;
+    font-weight: 700;
+}
+
+div.content-1 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18;
+    line-height: 34px;
+}
+
+span.description-2 a{
+    margin-top: 50px;
+    text-decoration: none;
+    color: #2C3964;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    border-bottom: 1.5px solid #2C3964;
+}
+
+/* col -2 */
+
+
+.column-2{
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-2 figure{
+    margin: 0;
+    margin-left: 60px;
+    width: 470px;
+    height:470px;
+    background-position: center;
+    background-color: rgba(26, 115, 232, 0.05);
+    border-radius: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.column-2 figure img{
+    align-self: center;
+}
+
+div.content-2{
+    width: 44%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+div.content-2 h4{
+    font-family: 'Alegreya', serif;
+    font-size: 30;
+    font-weight: 700;
+}
+
+div.content-2 p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18;
+    line-height: 34px;
+}
