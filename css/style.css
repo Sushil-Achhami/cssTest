@@ -156,3 +156,43 @@ input.btn-getstarted{
 input#button-main-1{
     margin-top: 55px;
 }
+
+div#featured-title{
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 56px 0 60px 0;
+}
+
+section.container-sm{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    position: static;
+    
+}
+
+.container-small{
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div#featured-areas{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 230px;
+}
+
+div.flex-area{
+    height: 100px;
+    width: 25%;
+    margin:auto;
+}
+
+div#featured-areas img{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
