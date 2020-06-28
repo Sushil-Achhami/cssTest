@@ -1,3 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,700;1,300;1,400&display=swap');
+
 html, body{
-    
+    margin: 0;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header{
+    background-color:#fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center; 
+}
+
+figure#main-logo{
+    float: left;
+    margin: 20px 155px 26px 155px;
+}
+
+figure#main-logo img{
+    width: 100%;
+    height: auto;
+}
+
+nav#navbar{
+    display: inline-block;
+    font-size: 16px;
+}
+
+input#btn-login{
+    display: inline-block;
+    margin: 37px 130px 34px 0px;
+    color: #488EFF;
+    border: 2px solid #488EFF;
+    border-radius: 4px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 22px;
+}
+
+nav#navbar ul{
+    padding: 0px;
+    margin-top: 50px;
+}
+
+nav#navbar ul li{
+    display: inline-block;
+    margin-right: 67px;
+}
+
+nav#navbar ul li a{
+    color: #232323;
 }
