@@ -473,10 +473,6 @@ div#client-3{
     
 }
 
-div#client-2{
-    box-shadow: 15px 15px 20px rgba(72, 142, 255, 0.1);
-}
-
 div h4#clienturl{
     display: block;
     margin: 30px;
@@ -653,4 +649,432 @@ div.social-icons{
 
 div.social-icons img{
     padding-left: 20px;
+}
+
+@media all and (min-width:1800px) and (max-width:1900px){
+    figure#main-logo{
+        margin: 20px 100px 26px 100px;
+    }
+}
+
+@media all and (max-width:1874px){
+    div.content-2{
+
+        margin-right: 70px;
+    }
+}
+
+@media all and (min-width:1500px) and (max-width:1800px){
+    figure#main-logo{
+        margin: 10px;
+    }
+
+    nav#navbar ul li{
+        margin-right: 30px;
+    }
+
+    input#btn-login{
+        display: inline-block;
+        margin: 37px 50px 34px 0px;
+    }   
+    nav#navbar{
+        font-size: 13px;
+    }
+
+    input#btn-login{
+        margin: 10px auto;
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+
+    div.container-main{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    main section.container figure#figure-1{
+        right: 25px;    
+    }
+
+    section.container-lg{
+        width: 90%;
+    }
+    
+    section.container-sm{
+        width: 90%;
+    }
+    
+    .container-small{
+        width: 90%;
+    }
+    
+    div#lg-main{
+        width: 60%;
+    }
+
+    section.features{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section#idea-box{
+        width: 90%;
+    }
+
+    footer.footer{
+        width: 90%;
+    }
+
+}
+
+@media all and (min-width:1200px) and (max-width:1500px){
+    figure#main-logo{
+        margin: 10px;
+    }
+
+    nav#navbar ul li{
+        margin-right: 30px;
+    }
+
+    div#header{
+        padding-top: 40px;
+    }
+    input#btn-login{
+        display: inline-block;
+        margin: 37px 50px 34px 0px;
+    }   
+    nav#navbar{
+        font-size: 13px;
+    }
+
+    input#btn-login{
+        margin: 10px auto;
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+
+    div.container-main{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    main section.container figure#figure-1{
+        right: 25px;    
+    }
+
+    section.container-lg{
+        width: 90%;
+    }
+    
+    section.container-sm{
+        width: 90%;
+    }
+    
+    .container-small{
+        width: 90%;
+    }
+    
+    div#lg-main{
+        width: 60%;
+    }
+
+    section.features{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    section#idea-box{
+        width: 90%;
+    }
+
+    footer.footer{
+        width: 90%;
+    }
+}
+
+@media all and (min-width:800px) and (max-width:1200px){
+
+    figure#main-logo{
+        margin: 0 auto;
+        margin:10px 10px 10px 10px;
+        padding: 0px;
+        float: none;
+        width: 80%;
+        
+    }
+
+    figure#main-logo img{
+        width: 50%;
+    }
+
+    nav#navbar ul li{
+        margin-right: 10px;
+    }
+
+    input#btn-login{
+        display: inline-block;
+        margin: 37px 50px 34px 0px;
+    }   
+    nav#navbar{
+        font-size: 13px;
+    }
+
+    div#header{
+        font-weight: 700;
+        padding-top: 50px;
+    }
+
+    input#btn-login{
+        margin: 10px auto;
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+
+    div.container-main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main section.container figure#figure-1{
+        right: 25px;    
+    }
+
+    section.container-lg{
+        width: 100%;
+    }
+    
+    section.container-sm{
+        width: 100%;
+    }
+    
+    .container-small{
+        width: 100%;
+    }
+    
+    div.flex-area img{
+        width: 60%;
+    }
+    
+    div#lg-main{
+        width: 60%;
+    }
+
+    section.features{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .column-1 figure{
+        margin: 0;
+        width: 200px;
+        height:200px;
+        background-position: center;
+        background-color: rgba(26, 115, 232, 0.05);
+        border-radius: 0 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .column-1 figure img{
+        width: 80%;
+    }
+    .column-2 figure img{
+        width: 80%;
+    }
+
+    .column-2 figure{
+        margin: 0;
+        /* margin-left: 60px; */
+        width: 200px;
+        height:200px;
+        background-position: center;
+        background-color: rgba(26, 115, 232, 0.05);
+        border-radius: 0 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    div#text-container{
+        width: 55%;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    section#idea-box{
+        width: 100%;
+    }
+
+    input#ideabox-button{
+        margin: 20px;
+    }
+
+    footer.footer{
+        width: 90%;
+    }
+}
+
+@media all and (min-width:500px) and (max-width:800px){
+    figure#main-logo{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    figure#main-logo img{
+        width: 50%;
+        height: auto;
+    }
+    
+    nav#navbar{
+        font-size: 13px;
+    }
+    
+    input#btn-login{
+        margin: 10px auto;
+        font-size: 15px;
+        padding: 8px 18px;
+    }
+    
+    nav#navbar ul{
+        padding: 0px;
+        margin-top: 10px;
+    }
+        
+    div.container-main{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    main section.container figure#figure-1{
+        right: 25px;    
+    }
+    
+    figure#figure-1 img, figure#figure-2 img, figure#figure-3 img{
+        width: 70%;
+        height: auto;
+    }
+    
+    div#header{
+        font-family: 'Alegreya', serif;
+        font-size: 30px;
+        font-weight: 700;
+        padding-top: 50px;
+        line-height: 30px;
+    }
+    
+    div#header p{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    
+    div#sub-header{
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 300;
+        font-size: 25px;
+        letter-spacing: 0.5px;
+        margin-bottom: 20px;
+    }
+    
+    div#description{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    input.btn-getstarted{
+        font-size: 12px;
+        padding: 10px 20px;
+        border-radius: 20px 0 20px 0;
+    }
+    
+    input#button-main-1{
+        margin-top: 35px;
+    }
+    
+    section.container-sm{
+        width: 80%;
+    }
+    
+    .container-small{
+        width: 80%;
+    }
+    
+    div#featured-areas{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+    
+    div.flex-area{
+        height: 60px;
+        width: 100%;
+        margin:auto;
+    }
+    
+    div#featured-areas img{
+        width: 30%;
+    }
+
+    section.container-lg{
+        width: 80%;
+        position: static;
+    }
+    
+    div.lg-title{
+        font-family: 'Alegreya', serif;
+        font-weight: 700;
+        font-size: 32px;
+        margin: 135px 0 70px 0;
+    }
+    
+    div#lg-main{
+        width: 80%;
+    }
+    
+    div#lg-title{
+        font-size: 25px;
+    }
+    
+    div#lg-sub{
+        font-size: 15px;
+    }
+    
+    div#lg-main span{
+        font-size: 16px;
+    }
+    
+    div.lg-img-container{
+        position: static;
+        /* height: 100px;
+        width: 100px; */
+        text-align: center;
+        background-color: #fff;
+        border-radius: 0px 20px;
+        box-shadow: 0 0 30px rgba(26, 115, 232, 0.1);
+    }
+    
+    div.lg-img-container h3{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 33px;
+        font-family: 16px;
+        font-weight: 200;
+        padding: 15px 0;
+        margin: 0;
+    }
+    
+    div.lg-img-container img{
+        margin-top: 10px;
+        width: 60%;
+    }
+    
+    div.lg-img-container span{
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 16px;
+        font-weight: 600;
+    }
+    
 }
